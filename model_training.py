@@ -210,4 +210,4 @@ for t in range(epochs):
 print("Done!")
 
 # Save the model
-torch.save(combined_model, "combined_model.pth")
+torch.save(combined_model.state_dict(), "combined_model.pth")
